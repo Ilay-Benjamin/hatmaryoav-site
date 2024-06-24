@@ -1,61 +1,76 @@
 body {
-     background-color: antiquewhite;
- }
- 
- 
- #div_logo {
-     background-color: brown;
-     height: auto;
-     width: 100%;
- }
- 
- 
- #img_logo {
-     height: 150px;
-     width: 150px;
-     margin-top: 10px;
-     margin-left: auto;
-     margin-right: auto;
-     display: block;
- }
- 
- #home_btn {
-     height: 60px;
-     width: 60px;
-     margin-top: 45px;
-     margin-left: auto;
-     margin-right: auto;
-     margin-bottom: 15px;
-     display: block;
-     border-radius: 25%;
-     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
- }
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif;
+}
 
+#div_logo {
+    background-color: brown;
+    height: auto;
+    width: 100%;
+}
 
- #div_title {
-     margin: auto;
-     width: 60%;
-     text-align: center;
- }
- 
- 
+#img_logo {
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
+#home_btn {
+    height: 60px;
+    width: 60px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    display: block;
+    border-radius: 25%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 
- #div_body_header {
-     margin: auto;
-     padding-left: 20px;
-     padding-right: 20px;
-     border-bottom: 1px black solid;
+#div_title {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+#div_body_header {
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px black solid;
 }
 
 #content {
-     width: 80%;
-     height: auto;
-     margin: auto;
-     margin-top: 50px;
-     content: "";
-     clear: both;
-     display: table;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    content: "";
+    clear: both;
+    display: table;
 }
 
- 
+.navbar {
+    background-color: brown;
+}
+
+.navbar-brand h2 {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#content li {
+    margin: 5px 0;
+}
+
+#content h4 {
+    margin: 20px 0 10px;
+}

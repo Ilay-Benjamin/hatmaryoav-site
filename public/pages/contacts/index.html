@@ -13,12 +13,16 @@
     <link rel="icon" type="image/x-icon" href="../../sources/yoav_logo2.jpg">
     <link rel="stylesheet" href="index.css">
 
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.0/dist/email.min.js">
-</script>
-    <script src="index.js"></script>
+    <!-- Load Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-auth.js"></script>
+
+
+    <script defer src="firebase-init.js"></script>
+    <script defer src="https://smtpjs.com/v3/smtp.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.0/dist/email.min.js"></script>
+    <script defer src="index.js"></script>
 
 </head>
 
@@ -81,99 +85,11 @@
 
     <div id="div_body_header"></div>
     <div id="content">
-
-        <ul>
-            <h4>מוקדים:</h4>
-            <li>חמל אגם חטיבתי-08-6354734 </li>
-            <li>  חמל תקשוב- 08-6354757 </li>
-            <li> חמל אבטחה/הגמר חטיבתי- <br> 08-6354723 </li>
-        </ul>
-
-        <br>
-        <br>
-
-        <ul>
-            <h4>משאן:</h4>
-            <li>    קמש״חית - (מגי) 054-9224686 </li>
-            <li>    ע׳ קמש״ח- (טל) 050-2246389 </li>
-            <li>    ק.ת״ש-(טל) 050-7408753 </li>
-            <li>    ק.חינוך-(ליאור) 055-8984218 </li>
-            <li>    רב חטיבתי -(יעקב) 054-2161673 </li>
-        </ul>
-
-        <br>
-        <br>
-
-        <ul>
-            <h4>לוגיסטיקה:</h4>
-            <li>   קל״חית-(ליהי) 052-6097739 </li>
-            <li>    נשקייה-(שירלי) 052-8661230 </li>
-        </ul>
-
-        <br>
-        <br>
-
-        <ul>
-            <h4>אפסנאות:</h4>
-            <li> (ליטל) 050-4740552 </li>
-            <li> (בתאל) 050-9292492 </li>
-        </ul>
-
-        <br>
-        <br>
-        <ul>
-            <h4> מחנה: </h4>
-            <li> רס״ר- 050-7669670 </li>
-            <li>רס״רית- 050-2210838</li>
-        </ul>
-
-        <br>
-        <br>
-
-        <ul>
-            <h4> מודיעין: </h4>
-            <li>ע׳ קמ״ן-(שקד)  054-9738822</li>
-        </ul>
-
-        <br>
-        <br>
-
-        <ul>
-            <h4> רפואה: </h4>
-            <li> קרפ״חית-(אורטל) 050-3661924 </li>
-            <li>  נגד רפואה-(אורי) 054-4690367 </li>
-        </ul>
-
-        <br>
-        <br>
-        <ul>
-            <h4> בטיחות: </h4>
-            <li>קבט״חית ומפ ניוד (ליזה) <br>  052-9599489</li>
-        </ul>
-
-        <br>
-        <br>
-
-        <ul>
-            <h4> תקשוב: </h4>
-            <li>קשר״חית-(אלמוג) 053-4255787</li>
-            <li>מ״מ שוב-(ליאור) 052-2962218</li>
-            <li>נגד ציוד קשר-(רון) 052-7726528</li>
-        </ul>
-
-        <br>
-        <br>
-
-        <ul>
-            <h4> אגם: </h4>
-            <li>קמב״ץ-(נדב) 050-3068889</li>
-        </ul>
-
+        <!-- Content will be dynamically inserted here -->
     </div>
 
     <br><br><br>
 
 </body>
-
 
 </html>
