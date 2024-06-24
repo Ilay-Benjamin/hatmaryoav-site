@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
     const authButton = document.getElementById('auth-button');
-    const createCollectionButton = document.getElementById('create-collection-button');
+  //  const createCollectionButton = document.getElementById('create-collection-button');
     const addDepartmentButton = document.getElementById('add-department-button');
 
     authButton.addEventListener('click', authenticate);
-    createCollectionButton.addEventListener('click', createContactsCollection);
+ //   createCollectionButton.addEventListener('click', createContactsCollection);
     addDepartmentButton.addEventListener('click', addDepartment);
 });
 
