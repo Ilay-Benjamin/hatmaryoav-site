@@ -1,0 +1,117 @@
+body {
+    background-color: antiquewhite;
+    font-family: Arial, sans-serif;
+}
+
+#div_logo {
+    background-color: brown;
+    height: auto;
+    width: 100%;
+}
+
+#img_logo {
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#home_btn {
+    height: 60px;
+    width: 60px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    display: block;
+    border-radius: 25%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#div_title {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+#div_body_header {
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px black solid;
+}
+
+#content {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.navbar {
+    background-color: brown;
+}
+
+.navbar-brand h2 {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#auth-section {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#auth-code {
+    width: 300px;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#auth-button {
+    padding: 10px 20px;
+}
+
+#manage-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#departments {
+    margin-top: 30px;
+}
+
+.department .card {
+    margin-bottom: 20px;
+}
+
+.department .card-header h3 {
+    margin: 0;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-primary, .btn-warning, .btn-danger, .btn-success {
+    margin-left: 5px;
+}
+
+.card-body button {
+    margin-top: 10px;
+}
+
+#content h4 {
+    text-align: right;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}

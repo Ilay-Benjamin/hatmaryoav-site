@@ -1,0 +1,55 @@
+body {
+    background-color: antiquewhite;
+}
+
+#div_title {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+
+#content {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#icon_menu {
+    width: auto;
+    margin: auto;
+    display: table;
+    clear: both;
+    content: "";
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.icon_items {
+    height: 42px;
+    width: 42px;
+    border-radius: 25%;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#uzia {
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+#uzia_map {
+    height: 280px;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
